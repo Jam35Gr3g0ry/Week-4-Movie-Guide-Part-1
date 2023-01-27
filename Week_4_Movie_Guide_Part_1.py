@@ -41,6 +41,8 @@ def main():
             add(movie_list)
         elif command.lower() == "del":
             delete(movie_list)
+        elif command.lower() == "exit":
+            break
         else:
             print("Not a valid command. Please try again.\n")
 
